@@ -9,9 +9,9 @@
 `timescale 1ns / 1ps
 
 //
-module const0(const0);
+module const0(out);
 //
-output [0:0] const0;
+output [0:0] out;
 
 //
 //
@@ -20,7 +20,7 @@ output [0:0] const0;
 //
 //
 
-	assign const0[0] = 1'b0;
+	assign out[0] = 1'b0;
 endmodule
 //
 
